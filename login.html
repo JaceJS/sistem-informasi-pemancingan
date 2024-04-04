@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Login - Pemancingan Finder</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;0,900;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand" href="#">Pemancingan Finder</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="peta.html">Peta Pemancingan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang.html">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Main ======= -->
+    <main id="main">
+      <section
+        class="d-flex justify-content-center align-items-center"
+        style="min-height: 100vh; background-color: #ffb03b"
+      >
+        <div class="container py-5 h-100">
+          <div
+            class="row d-flex justify-content-center align-items-center h-100"
+          >
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div
+                class="card shadow-2-strong"
+                style="
+                  background-color: rgba(255, 255, 255, 0.3);
+                  border-radius: 1rem;
+                "
+              >
+                <div class="card-body px-sm-5 py-sm-4 p-3 text-center">
+                  <h5 class="fw-bold">SISTEM INFORMASI PEMANCINGAN</h5>
+                  <hr />
+                  <h3 class="mb-5">Login</h3>
+                  <form action="prosesloginanggota.php" method="post">
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="username">Username</label>
+
+                      <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        class="form-control"
+                        required
+                        autofocus
+                      />
+                    </div>
+                    <div class="form-outline">
+                      <label class="form-label" for="password">Password</label>
+
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="form-control"
+                        required
+                      />
+                    </div>
+
+                    <button
+                      class="btn btn-primary btn-md btn-block mt-4 mb-3"
+                      type="submit"
+                    >
+                      Masuk
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>Pemancingan Finder</span>
+            </a>
+            <p>
+              Pemancingan Finder adalah aplikasi yang menyediakan informasi
+              lengkap tentang setiap spot pemancingan, termasuk jenis ikan yang
+              dapat ditemui, waktu terbaik untuk memancing dan yang lainnya
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-12 footer-links text-center text-md-start">
+            <h4>Bantuan</h4>
+            <ul>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="peta.html">Peta Pemancingan</a></li>
+              <li><a href="galeri.html">Galeri</a></li>
+              <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Kontak</h4>
+            <p>
+              Jl. Contoh No. 123<br />
+              Kecamatan ABC<br />
+              Kota Manado <br /><br />
+              <strong>Phone:</strong> 0812 3456 7891<br />
+              <strong>Email:</strong> pemancinganfinder@gmail.com<br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Pemancingan Finder</span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+    >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
