@@ -1,0 +1,73 @@
+/*------------------------------------------------------------
+ADMIN 3
+------------------------------------------------------------*/
+
+.page-sidebar,
+.logo-box {
+  /* background: #1F2A40; */
+  background: #212529;
+}
+
+.page-content,
+.page-header,
+.page-header .navbar-default,
+.page-inner:not(.login-page),
+.search-form,
+.page-header .form-control,
+.search-form #close-search {
+  background: #ebf0f3;
+}
+
+.page-sidebar-menu ul li.menu-divider {
+  background: #1e2636;
+}
+
+.page-sidebar-menu ul li a,
+.page-sidebar-menu ul li a i.accordion-icon {
+  color: #828ba0;
+}
+
+.accordion-menu .sub-menu li a {
+  color: #828ba0;
+}
+
+.accordion-menu .sub-menu li a:hover,
+.accordion-menu .sub-menu li a.active,
+.accordion-menu .sub-menu li a.active:hover {
+  color: #b9c1d5 !important;
+}
+
+body:not(.page-sidebar-collapsed) .accordion-menu .sub-menu {
+  padding-top: 8px;
+}
+
+.page-sidebar-menu ul li.active-page > a,
+.page-sidebar-menu ul li.active-page > a i,
+.page-sidebar-menu ul li.active-page > a i.accordion-icon,
+.open:not(.active-page) > a {
+  color: #d0d8e9;
+}
+
+.page-sidebar-collapsed .open:not(.active-page) > a {
+  color: #828ba0;
+}
+
+.page-sidebar-collapsed .page-sidebar-menu > ul > li:hover > a {
+  color: #d0d8e9;
+}
+
+.accordion-menu .sub-menu,
+.page-sidebar-collapsed .page-sidebar-menu > ul > li:hover > a {
+  background: #1d2124;
+}
+
+#vmap {
+  background-color: #ebf0f3 !important;
+}
+
+@media (max-width: 991px) {
+  .logo-sm .logo-box {
+    background: #ebf0f3;
+    border: 0;
+  }
+}
